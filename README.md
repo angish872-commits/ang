@@ -10,7 +10,7 @@ A lightweight, responsive pet-project concept for **Globle Supply Chain** at `pe
 3. **Requests** — visitors can describe what they hope to see.
 
 ## Run locally
-Open `index.html` in a browser. No build process, frameworks, tracking scripts or external assets required.
+Open `index.html` in a browser. No build process or frameworks required. The page loads licensed real pet photographs from `images.unsplash.com`, so an internet connection is needed to display them.
 
 ## Request handling — IMPORTANT
 There is **no request-collection backend** and the app never claims otherwise.
@@ -43,3 +43,17 @@ The steps below document the configuration already applied and how to maintain i
 - Add a privacy notice before collecting or retaining customer contact details.
 
 This is a separate exploratory project from MoveFuel.
+
+## Photography (October 2026)
+
+The illustrated pet emoji placeholders have been replaced by real photographs licensed under the [Unsplash License](https://unsplash.com/license). Photographs are illustrative and do **not** imply the company currently sells the pictured products or owns these animals.
+
+- [Dog and cat on grass](https://unsplash.com/photos/a-dog-and-a-cat-laying-in-the-grass-ouo1hbizWwo) — Andrew S
+- [Golden retriever portrait](https://unsplash.com/photos/a-close-up-of-a-golden-retrievers-face-outdoors-wANqTQHVN7o) — Helena Lopes
+- [Golden retriever puppy playing with a ball](https://unsplash.com/photos/a-dog-playing-with-a-ball-in-the-grass-7KNr72j8ZE4) — Caleb Wright
+- [Cat portrait](https://unsplash.com/photos/a-cat-lying-down-l1pWHYBYvR8) — Gary Scott
+- [Dog wearing a collar](https://unsplash.com/photos/a-dog-wearing-a-collar-MoEIb_BBQKg) — Joshua Patton
+- [Dog with tennis balls](https://unsplash.com/photos/a-dog-playing-with-a-ball-LqQjKYeLCfY) — Aaron Coons
+- [Dog and cat at home](https://unsplash.com/photos/a-dog-and-a-cat-sitting-on-the-floor-O36ujE4ljzQ) — Marcin Szmigiel
+
+All source images are regular, free Unsplash photos (not Unsplash+). Images are loaded from Unsplash's image CDN. Cloudflare Pages CSP permits image loading from that host only in addition to same-origin and data images. Keep image credits and source links if replacing these.
