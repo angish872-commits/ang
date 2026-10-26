@@ -2,7 +2,7 @@
 
 A lightweight, responsive pet-project concept for **Globle Supply Chain** at `pets.globlesupplychain.com` (suggested future subdomain).
 
-**Status:** Starter code only. Not yet deployed; the company has not announced any products, services, prices, launch dates, or availability.
+**Status:** Deployed to Cloudflare Pages at https://globle-pets-site.pages.dev . The custom domain `pets.globlesupplychain.com` has been registered and its CNAME created; Cloudflare certificate/domain validation may still be pending. No products, services, prices, launch dates, or availability have been announced.
 
 ## Three sections
 1. **Welcome** — introduction and friendly pet-focused concept.
@@ -20,7 +20,10 @@ There is **no request-collection backend** and the app never claims otherwise.
 - Before enabling production request submissions, add server-side validation, spam prevention, privacy and data-retention policies, and a legitimate confirmed recipient or backend.
 
 ## Deployment via Cloudflare Pages
-1. Create a **new** Cloudflare Pages project for this repository. Do **not** edit or reuse `movefule-website`.
+A **separate** GitHub-backed Cloudflare Pages project, `globle-pets-site`, was created. The MoveFuel project was not changed.
+
+The steps below document the configuration already applied and how to maintain it:
+1. Keep the **separate** Cloudflare Pages project for this repository. Do **not** edit or reuse `movefule-website`.
 2. Set the framework preset to **None**; build command empty; output directory `/` (repository root).
 3. Preview and verify all three tabs.
 4. Add `pets.globlesupplychain.com` as a custom domain in that new Pages project; allow Cloudflare to create the necessary DNS record.
