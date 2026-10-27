@@ -165,3 +165,7 @@ form input::placeholder,form textarea::placeholder{color:#a4b0a5}
 @media(max-width:1000px){.hero-photograph{height:440px}.hero-photo-caption{flex-direction:column;align-items:flex-start;gap:5px}}
 @media(max-width:700px){.hero-photograph{height:390px;border-radius:24px}.hero-photo-caption{padding:70px 18px 20px}.photo-card{min-height:0}.feature-photo{height:225px}.coming-image img{height:100%}.request-photo{height:260px}}
 @media(max-width:450px){.hero-photograph{height:320px}.hero-photo{object-position:49% 52%}.hero-photo-caption{font-size:14px}.coming-image img{height:160px}.request-photo{height:205px}}
+
+/* Clear way back to the parent company without extra assets. */
+.parent-company-link{padding-top:25px}
+.parent-company-link a{display:inline-block;font-size:13px;font-weight:750;color:#35533f;text-decoration:underline;text-underline-offset:5px}
